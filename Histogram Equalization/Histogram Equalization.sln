@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Histogram Equalization", "Histogram Equalization\Histogram Equalization.vcxproj", "{34725FCF-94B2-4ED3-9A8F-7AA3EA2D15B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34725FCF-94B2-4ED3-9A8F-7AA3EA2D15B9}.Debug|x64.ActiveCfg = Debug|x64
+		{34725FCF-94B2-4ED3-9A8F-7AA3EA2D15B9}.Debug|x64.Build.0 = Debug|x64
+		{34725FCF-94B2-4ED3-9A8F-7AA3EA2D15B9}.Release|x64.ActiveCfg = Release|x64
+		{34725FCF-94B2-4ED3-9A8F-7AA3EA2D15B9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8F37E90-CAC3-418E-B1CD-6838057EC4D1}
+	EndGlobalSection
+EndGlobal

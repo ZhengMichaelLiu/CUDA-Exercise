@@ -1,0 +1,78 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\x64\Debug\kernel.cu.obj "D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu" 
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(159): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(166): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(173): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(180): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(187): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(159): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(166): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(173): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(180): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(187): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (191): here
+              variable "dimGrid"
+  (192): here
+  
+  kernel.cu
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(76): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(87): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(192): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(192): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(232): warning C4533: "goto Error" 跳过了 "dimGrid" 的初始化
+  D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(232): note: 参见“Error”的声明
+  D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(192): note: 参见“dimGrid”的声明
+D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(232): warning C4533: "goto Error" 跳过了 "dimBlock" 的初始化
+  D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(232): note: 参见“Error”的声明
+  D:\Learn_CUDA\TiledMatrixMultiplication\TiledMatrixMultiplication\kernel.cu(191): note: 参见“dimBlock”的声明
+    正在创建库 D:\Learn_CUDA\TiledMatrixMultiplication\x64\Debug\TiledMatrixMultiplication.lib 和对象 D:\Learn_CUDA\TiledMatrixMultiplication\x64\Debug\TiledMatrixMultiplication.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  TiledMatrixMultiplication.vcxproj -> D:\Learn_CUDA\TiledMatrixMultiplication\x64\Debug\TiledMatrixMultiplication.exe

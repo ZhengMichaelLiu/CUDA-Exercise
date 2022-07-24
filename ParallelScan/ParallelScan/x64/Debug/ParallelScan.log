@@ -1,0 +1,95 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Learn_CUDA\ParallelScan\ParallelScan>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Learn_CUDA\ParallelScan\ParallelScan\x64\Debug\kernel.cu.obj "D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu" 
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(235): warning #174-D: expression has no effect
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(235): warning #174-D: expression has no effect
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(170): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(177): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(184): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(191): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(198): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(205): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(235): warning #174-D: expression has no effect
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(235): warning #174-D: expression has no effect
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(170): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(177): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(184): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(191): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(198): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(205): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimGrid"
+  (212): here
+              variable "dimBlock"
+  (213): here
+  
+  kernel.cu
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(98): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(164): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(277): warning C4533: "goto Error" 跳过了 "dimBlock" 的初始化
+  D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(277): note: 参见“Error”的声明
+  D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(213): note: 参见“dimBlock”的声明
+D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(277): warning C4533: "goto Error" 跳过了 "dimGrid" 的初始化
+  D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(277): note: 参见“Error”的声明
+  D:\Learn_CUDA\ParallelScan\ParallelScan\kernel.cu(212): note: 参见“dimGrid”的声明
+    正在创建库 D:\Learn_CUDA\ParallelScan\x64\Debug\ParallelScan.lib 和对象 D:\Learn_CUDA\ParallelScan\x64\Debug\ParallelScan.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  ParallelScan.vcxproj -> D:\Learn_CUDA\ParallelScan\x64\Debug\ParallelScan.exe

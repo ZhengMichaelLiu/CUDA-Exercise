@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VecAdd", "VecAdd\VecAdd.vcxproj", "{53F07E60-1978-4FCB-8A7C-99496C73E853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F07E60-1978-4FCB-8A7C-99496C73E853}.Debug|x64.ActiveCfg = Debug|x64
+		{53F07E60-1978-4FCB-8A7C-99496C73E853}.Debug|x64.Build.0 = Debug|x64
+		{53F07E60-1978-4FCB-8A7C-99496C73E853}.Release|x64.ActiveCfg = Release|x64
+		{53F07E60-1978-4FCB-8A7C-99496C73E853}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7877E05-E9DD-4404-B166-9726DCFA6980}
+	EndGlobalSection
+EndGlobal

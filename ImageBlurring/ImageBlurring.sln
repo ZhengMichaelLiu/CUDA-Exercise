@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageBlurring", "ImageBlurring\ImageBlurring.vcxproj", "{2E249471-43C8-41E3-AFCF-E7F9EA4B0082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E249471-43C8-41E3-AFCF-E7F9EA4B0082}.Debug|x64.ActiveCfg = Debug|x64
+		{2E249471-43C8-41E3-AFCF-E7F9EA4B0082}.Debug|x64.Build.0 = Debug|x64
+		{2E249471-43C8-41E3-AFCF-E7F9EA4B0082}.Release|x64.ActiveCfg = Release|x64
+		{2E249471-43C8-41E3-AFCF-E7F9EA4B0082}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {977A2D82-CB7B-4223-8E12-B1C03B956D59}
+	EndGlobalSection
+EndGlobal
