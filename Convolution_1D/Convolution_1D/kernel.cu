@@ -67,10 +67,10 @@ __global__ void convolution1DKernel_Strategy2(int* input, int* output, int numOf
 		for (int i = 0; i < MASK_WIDTH; i++) {
 			sum += MASK[i] * tile[i + tx];
 		}
-	}
 
-	if (output_idx < numOfElement) {
-		output[output_idx] = sum;
+		if (output_idx < numOfElement) {
+			output[output_idx] = sum;
+		}
 	}
 }
 

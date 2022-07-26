@@ -60,6 +60,4 @@ D:\CUDA-Exercise\Convolution_1D\Convolution_1D\kernel.cu(251): warning C4533: "g
 D:\CUDA-Exercise\Convolution_1D\Convolution_1D\kernel.cu(251): warning C4533: "goto Error" 跳过了 "dimBlock" 的初始化
   D:\CUDA-Exercise\Convolution_1D\Convolution_1D\kernel.cu(251): note: 参见“Error”的声明
   D:\CUDA-Exercise\Convolution_1D\Convolution_1D\kernel.cu(208): note: 参见“dimBlock”的声明
-    正在创建库 D:\CUDA-Exercise\Convolution_1D\x64\Debug\Convolution_1D.lib 和对象 D:\CUDA-Exercise\Convolution_1D\x64\Debug\Convolution_1D.exp
-LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   Convolution_1D.vcxproj -> D:\CUDA-Exercise\Convolution_1D\x64\Debug\Convolution_1D.exe
