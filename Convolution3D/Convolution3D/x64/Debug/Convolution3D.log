@@ -1,0 +1,63 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\CUDA-Exercise\Convolution3D\Convolution3D>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\CUDA-Exercise\Convolution3D\Convolution3D\x64\Debug\kernel.cu.obj "D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu" 
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(145): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(151): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(158): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(165): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(145): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(151): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(158): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(165): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock"
+  (168): here
+              variable "dimGrid"
+  (169): here
+  
+  kernel.cu
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(93): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(172): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(172): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(172): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(197): warning C4533: "goto Error" 跳过了 "dimGrid" 的初始化
+  D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(197): note: 参见“Error”的声明
+  D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(169): note: 参见“dimGrid”的声明
+D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(197): warning C4533: "goto Error" 跳过了 "dimBlock" 的初始化
+  D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(197): note: 参见“Error”的声明
+  D:\CUDA-Exercise\Convolution3D\Convolution3D\kernel.cu(168): note: 参见“dimBlock”的声明
+  Convolution3D.vcxproj -> D:\CUDA-Exercise\Convolution3D\x64\Debug\Convolution3D.exe

@@ -45,7 +45,10 @@ __global__ void convolution1DKernel_Strategy1(int* input, int* output, int numOf
 	for (int k = 0; k < MASK_WIDTH; k++) {
 		sum += tile[threadIdx.x + k] * MASK[k];
 	}
-	output[i] = sum;
+
+	if (i < numOfElement) {
+		output[i] = sum;
+	}
 }
 
 __global__ void convolution1DKernel_Strategy2(int* input, int* output, int numOfElement) {
@@ -97,7 +100,9 @@ __global__ void convolution1DKernel_Strategy3(int* input, int* output, int numOf
 			}
 		}
 	}
-	output[i] = sum;
+	if (i < numOfElement) {
+		output[i] = sum;
+	}
 }
 
 int main() {
